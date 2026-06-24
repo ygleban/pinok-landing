@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   title: "Pinok — операционка для ресторанов и салонов",
   description:
     "Чек-листы, расписание, отзывы и закупки в одном Telegram-боте. Триал 21 день бесплатно.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/logo-32.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Pinok — операционка для ресторанов и салонов",
     description:

@@ -54,7 +54,8 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="/" className="text-xl font-bold tracking-tight text-primary">
+        <a href="/" className="flex items-center gap-2 text-xl font-bold tracking-tight text-primary">
+          <img src="/logo-64.png" alt="Pinok" className="h-8 w-8" />
           Pinok
         </a>
 
